@@ -1,0 +1,4 @@
+name: clock
+recipe: lamp
+config:
+  webroot: .

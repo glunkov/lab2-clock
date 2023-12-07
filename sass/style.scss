@@ -1,0 +1,31 @@
+@import "compass/reset";
+
+body {
+  background-color: #000; /* Dark background */
+  color: #0F0; /* Green text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#clocks {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+#serverClock {
+  font-family: 'Courier New', monospace; /* Monospace font */
+  font-size: 48px;
+  text-shadow: 0 0 20px #0F0; /* Green glow */
+  letter-spacing: 5px; /* Spacing between characters */
+}
+
+#browserClock {
+  @extend #serverClock;
+}
