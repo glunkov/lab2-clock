@@ -7,10 +7,10 @@
 <body>
 <div id="clocks">
   <div id="serverClock" class="clock">
-    Server Time: <span id="serverClockInner"><?php echo date('H:i:s'); ?></span>
+    Server: <span id="serverClockInner"><?php echo date('H:i:s'); ?></span>
   </div>
   <div id="browserClock" class="clock">
-    Browser Time:
+    Browser: <span id="browserClockInner"><?php echo date('H:i:s'); ?></span>
   </div>
 </div>
 <script src="assets/js/script.js"></script>
